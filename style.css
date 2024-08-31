@@ -67,7 +67,7 @@ border-bottom: solid 5px rgb(146, 218, 39);
 .grid{
     margin-top: 2rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
     gap: 2rem;
 }
 
@@ -114,13 +114,6 @@ border-bottom: solid 5px rgb(146, 218, 39);
 }
 
 @media (max-width: 1024px) {
-
-    #sobre img{
-        width: 100%;
-        height: auto;
-        border-radius: 20px;
-        }
-
     #sobre{
         margin-top: 7rem;
         width: 100%;
@@ -130,11 +123,29 @@ border-bottom: solid 5px rgb(146, 218, 39);
     }
 
     
-.container-sobre h1{
-    position: absolute;
-    top: 130px;
-    font-size: 2rem;
-    border-bottom: solid 5px rgb(146, 218, 39);
-    }
+    #sobre img{
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+        }
+
+    
+        .container-sobre h1{
+            position: absolute;
+            top: 120px;
+            font-size: 2rem;
+            border-bottom: solid 5px rgb(146, 218, 39);
+            }
+    
+}
+
+
+
+
+
+@media (max-width: 640px) {
+
+
+
     
 }
